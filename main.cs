@@ -15,7 +15,7 @@ class Program
 
         Console.Write("Numbers of hours worked: ");
         hours = Convert.ToInt32(Console.ReadLine());
-        Console.Write("hourly rate: ");
+        Console.Write("hourly rate: $ ");
         rate = Convert.ToInt32(Console.ReadLine());
   
         TAX_RATE = 0.18;
